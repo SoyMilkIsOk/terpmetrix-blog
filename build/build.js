@@ -26,6 +26,7 @@ const createDirectory = function(path) {
 createDirectory(distLocation + '/js');
 createDirectory(distLocation + '/css');
 createDirectory(distLocation + '/feeds');
+createDirectory(distLocation + '/public');
 
 // create an empty file for the site map
 fs.writeFileSync(distLocation + "/feeds/sitemap.txt", "");
@@ -58,6 +59,25 @@ exports.buildPage = function buildPage(path, content, type = "html") {
         return true;
     });
 };
+
+// function to build favicon
+buildFavicon = function buildFavicon(path, content) {
+    path = path.charAt(0) !== "/" ? "/" + path : path; // add slash if needed
+    let filepath = `${distLocation}${path}`; // the location for the file
+    createDirectory(filepath); // create directory if needed
+    // write the static file
+    fs.writeFile(filepath, content, function(err) {
+        if (err) { 
+            console.error(err); 
+            return false 
+        }
+        console.log(`Build of ${path} successful`);
+        return true;
+    });
+};
+
+// call the build function for favicon
+buildFavicon("/public/favicon.ico", fs.readFileSync(__dirname + '/../favicon.ico'));
 
 // build blog pages e.g. custom 404
 require("./pages.js");
