@@ -33,6 +33,6 @@ We saw a gap in the market for a product that could help people to dose their he
 
 ## Where can I get one?
 
-[Head over to our shop](https://shop.terpscoops.com) to get your hands on a TerpScoop today. We're have discounts on 4 and 8 packs, so you can stock up and save. And don't forget to follow us on [Instagram](https://instagram.com/terpscoops) for all the latest updates and news.
+[Head over to our shop](https://shop.terpscoops.com/products/terpscoop) to get your hands on a TerpScoop today. We're have discounts on 4 and 8 packs, so you can stock up and save. And don't forget to follow us on [Instagram](https://instagram.com/terpscoops) for all the latest updates and news.
 
 We can't wait to see how TerpScoops revolutionizes the way you dose your herbs. *Happy scooping!* 🌿🍨

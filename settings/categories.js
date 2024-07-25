@@ -13,10 +13,10 @@ const categories = {
         name: "Terpscoops",
         description: "Terpscoops project updates & news.",
     },
-    // "news": { 
-    //   name: "News",
-    //   description: "All the latest news and announcements.",
-    // },
+    "news": { 
+      name: "News",
+      description: "All the latest news and announcements.",
+    },
 };
 
 export default categories;
